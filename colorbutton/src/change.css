@@ -1,0 +1,26 @@
+.change
+{
+background-color: aquamarine;
+height: auto;
+padding: 16px;
+font-size: 15px;
+border-radius: 10px;
+font-weight: bold;
+}
+
+/* Center the container and make the background fill the viewport */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey; /* Or any default background color you want */
+    margin: 0;
+}
+
+/* Style for the button */
+
+/* Change color on hover */
+.change:hover {
+    background-color: #154641; /* Darker green */
+}
